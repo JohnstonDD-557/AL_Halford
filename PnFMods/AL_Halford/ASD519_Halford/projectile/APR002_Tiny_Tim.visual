@@ -1,0 +1,61 @@
+<APR002_Tiny_Tim.visual>
+	<skeleton>
+		<node>
+			<identifier>Scene Root</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 0.000000 1.000000</row1>
+				<row2>0.000000 1.000000 0.000000</row2>
+				<row3>0.000000 0.000000 0.000000</row3>
+			</transform>
+			<node>
+				<identifier>Bomb</identifier>
+				<transform>
+					<row0>1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 1.000000 0.000000</row1>
+					<row2>0.000000 0.000000 1.000000</row2>
+					<row3>0.000000 0.000000 0.000000</row3>
+				</transform>
+				<node>
+					<identifier>HP_Trace</identifier>
+					<transform>
+						<row0>1.000000 0.000000 0.000000</row0>
+						<row1>0.000000 0.000000 1.000000</row1>
+						<row2>0.000000 1.000000 0.000000</row2>
+						<row3>0.010000 -0.097900 -0.010500</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+	</skeleton>
+	<properties>
+		<underwaterModel>false</underwaterModel>
+		<abovewaterModel>true</abovewaterModel>
+	</properties>
+	<boundingBox>
+		<min>-0.028184 -0.243612 -0.056119</min>
+		<max>0.028184 0.227799 0.000249</max>
+	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>BombShape</name>
+			<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+			<nodes>
+				<node>Bomb</node>
+			</nodes>
+			<material>
+				<identifier>TL2_SHIPMAT_NODAMAGE_PBS_Projectile</identifier>
+				<mfm>PnFMods/AL_Halford/ASD519_Halford/projectile/APB006_AN_M66_GP2000lb_projectile.mfm</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>2000</extent>
+			<castsShadow>true</castsShadow>
+			<renderSets>
+				<renderSet>BombShape</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
+</APR002_Tiny_Tim.visual>

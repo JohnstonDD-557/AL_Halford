@@ -1,0 +1,7 @@
+<AD001_Director_Mk37_wire.mfm>
+	<fx>	shaders/std_effects/grid_alpha.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/director/AD001_Director_Mk37_Grid_a.dds	</Texture>
+	</property>
+</AD001_Director_Mk37_wire.mfm>

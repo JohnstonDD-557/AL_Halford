@@ -1,0 +1,73 @@
+<mk37.visual>
+	<skeleton>
+		<node>
+			<identifier>Scene Root</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 1.000000 0.000000</row1>
+				<row2>0.000000 0.000000 1.000000</row2>
+				<row3>0.000000 0.000000 0.000000</row3>
+			</transform>
+			<node>
+				<identifier>AD001_Director_Mk37</identifier>
+				<transform>
+					<row0>1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 1.000000 0.000000</row1>
+					<row2>0.000000 0.000000 1.000000</row2>
+					<row3>0.000000 0.000000 0.000000</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>AD001_Director_Mk37_wire</identifier>
+				<transform>
+					<row0>1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 1.000000 0.000000</row1>
+					<row2>0.000000 0.000000 1.000000</row2>
+					<row3>0.000000 0.000000 0.000000</row3>
+				</transform>
+			</node>
+		</node>
+	</skeleton>
+	<properties>
+		<underwaterModel>false</underwaterModel>
+		<abovewaterModel>true</abovewaterModel>
+	</properties>
+	<boundingBox>
+		<min>-0.163675 -0.000681 -0.141813</min>
+		<max>0.154525 0.334019 0.116387</max>
+	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>AD001_Director_Mk37_wireShape</name>
+			<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+			<nodes>
+				<node>AD001_Director_Mk37_wire</node>
+			</nodes>
+			<material>
+				<identifier>GRID_Misc</identifier>
+				<mfm>PnFMods/AL_Halford/ASD519_Halford/director/AD001_Director_Mk37_wire.mfm</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>AD001_Director_Mk37Shape</name>
+			<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+			<nodes>
+				<node>AD001_Director_Mk37</node>
+			</nodes>
+			<material>
+				<identifier>TL2_SHIPMAT_PBS_Director</identifier>
+				<mfm>PnFMods/AL_Halford/ASD519_Halford/director/AD001_Director_Mk37.mfm</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>2000</extent>
+			<castsShadow>true</castsShadow>
+			<renderSets>
+				<renderSet>AD001_Director_Mk37_wireShape</renderSet>
+				<renderSet>AD001_Director_Mk37Shape</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
+</mk37.visual>

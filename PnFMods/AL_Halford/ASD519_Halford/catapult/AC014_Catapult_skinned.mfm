@@ -1,0 +1,41 @@
+<AC014_Catapult_skinned.mfm>
+	<fx>	shaders/materials/pbs/ship_emissive_material_skinned.fx	</fx>
+	<property>	emissivePower
+		<Float>	3.5	</Float>
+	</property>
+    <materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/catapult/default_ao.dds	</Texture>
+	</property>
+	<property>	detailMap
+		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/catapult/AC014_Catapult_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/catapult/AC014_Catapult_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/catapult/AC014_Catapult_n.dds	</Texture>
+	</property>
+	<property>	g_detailAlbedoInfluence
+		<Float>	0.6000	</Float>
+	</property>
+	<property>	g_detailFadeDistance
+		<Float>	3.0000	</Float>
+	</property>
+	<property>	g_detailGlossInfluence
+		<Float>	1.0000	</Float>
+	</property>
+	<property>	g_detailNormalInfluence
+		<Float>	0.4000	</Float>
+	</property>
+	<property>	g_detailScaleU
+		<Float>	8.0000	</Float>
+	</property>
+	<property>	g_detailScaleV
+		<Float>	8.0000	</Float>
+	</property>
+</AC014_Catapult_skinned.mfm>
