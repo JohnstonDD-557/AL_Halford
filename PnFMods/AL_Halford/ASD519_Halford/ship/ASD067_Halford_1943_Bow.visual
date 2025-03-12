@@ -1,0 +1,143 @@
+<Test_2.visual>
+	<skeleton>
+		<node>
+			<identifier>Scene Root</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 1.000000 0.000000</row1>
+				<row2>0.000000 0.000000 1.000000</row2>
+				<row3>0.000000 0.000000 0.000000</row3>
+			</transform>
+			<node>
+				<identifier>	Root	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Root_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Rotate_Y	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>Circle_ground</identifier>
+						<transform>
+							<row0>1.000000 0.000000 0.000000 0.0000</row0>
+							<row1>0.000000 1.000000 0.000000 0.0000</row1>
+							<row2>0.000000 0.000000 1.000000 0.0000</row2>
+							<row3>0.000000 0.000000 0.000000 1.0000</row3>
+						</transform>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>Stern</identifier>
+				<transform>
+					<row0>1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 1.000000 0.000000</row1>
+					<row2>0.000000 0.000000 1.000000</row2>
+					<row3>0.000000 0.000000 0.000000</row3>
+				</transform>
+				<node>
+					<identifier>Stern_crack_MidBack</identifier>
+					<transform>
+						<row0>1.000000 0.000000 0.000000</row0>
+						<row1>0.000000 1.000000 0.000000</row1>
+						<row2>0.000000 0.000000 1.000000</row2>
+						<row3>0.000000 0.000000 0.000000</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>Stern_crack_MidBack_in</identifier>
+					<transform>
+						<row0>1.000000 0.000000 0.000000</row0>
+						<row1>0.000000 1.000000 0.000000</row1>
+						<row2>0.000000 0.000000 1.000000</row2>
+						<row3>0.000000 0.000000 0.000000</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+	</skeleton>
+	<properties>
+		<underwaterModel>false</underwaterModel>
+		<abovewaterModel>true</abovewaterModel>
+	</properties>
+	<boundingBox>
+		<min>-1.000000 -0.348059 -2.700025</min>
+		<max>1.000000 0.033333 1.000000</max>
+	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>Circle_groundShape</name>
+			<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+			<nodes>
+				<node>Circle_ground</node>
+				<node>	Root_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>Circle_ground</identifier>
+				<mfm>PnFMods/AL_Halford/ASD519_Halford/ship/Circle_ground.mfm</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>Stern_crack_MidBack_inShape</name>
+			<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+			<nodes>
+				<node>Stern_crack_MidBack_in</node>
+			</nodes>
+			<material>
+				<identifier>TL2_SHIPMAT_PBS_Hull</identifier>
+				<mfm>PnFMods/AL_Halford/ASD519_Halford/ship/ASD067_Halford_1943.mfm</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>Stern_crack_MidBackShape</name>
+			<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+			<nodes>
+				<node>Stern_crack_MidBack</node>
+			</nodes>
+			<material>
+				<identifier>TL2_SHIPMAT_PBS_Hull</identifier>
+				<mfm>PnFMods/AL_Halford/ASD519_Halford/ship/ASD067_Halford_1943.mfm</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>SternShape</name>
+			<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+			<nodes>
+				<node>Stern</node>
+			</nodes>
+			<material>
+				<identifier>TL2_SHIPMAT_PBS_Hull</identifier>
+				<mfm>PnFMods/AL_Halford/ASD519_Halford/ship/ASD067_Halford_1943.mfm</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>2000</extent>
+			<castsShadow>true</castsShadow>
+			<renderSets>
+				<renderSet>Circle_groundShape</renderSet>
+				<renderSet>Stern_crack_MidBack_inShape</renderSet>
+				<renderSet>Stern_crack_MidBackShape</renderSet>
+				<renderSet>SternShape</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
+</Test_2.visual>

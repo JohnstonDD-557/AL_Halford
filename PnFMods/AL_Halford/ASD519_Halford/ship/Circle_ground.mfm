@@ -1,0 +1,29 @@
+<Circle_ground.mfm>
+	<fx>	shaders/materials/pbs/ship_emissive_material.fx	</fx>
+	<property>	emissivePower
+		<Float>	114	</Float>
+	</property>
+    <materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+    <property>	doubleSided
+		<Bool>	false	</Bool>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaReference
+		<Int>	250	</Int>
+	</property>	
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/ship/default_ao.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/ship/Circle_ground_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/ship/Circle_ground_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/ship/Circle_ground_n.dds	</Texture>
+	</property>
+</Circle_ground.mfm>

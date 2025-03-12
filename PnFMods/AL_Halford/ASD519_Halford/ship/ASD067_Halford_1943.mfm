@@ -1,0 +1,71 @@
+<ASD067_Halford_1943.mfm>
+	<fx>	shaders/materials/pbs/ship_emissive_material.fx	</fx>
+	<property>	emissivePower
+	<Float>	2	</Float>
+	</property>
+	<property>	emissionAnimationMode
+		<Int>	3	</Int>
+	</property>	
+	<property>	emissionColorMode
+		<Int>	1	</Int>
+	</property>
+	<property>	animEmissionPower
+		<Float>	3.00000	</Float>
+	</property>
+	<property>	animScale
+		<Vector4>	1	1	1	1	</Vector4>
+	</property>
+	<property>	maskColor1
+		<Vector4>	0	0	0	1	</Vector4>
+	</property>
+	<property>	maskColor2
+		<Vector4>	0	0.4	0.8	1	</Vector4>
+	</property>
+	<property>	maskSpeed
+		<Vector4>	0.1	0	1	0	</Vector4>
+	</property>
+	<property>	doubleSided
+		<Bool>	false	</Bool>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	false	</Bool>
+	</property>
+    <materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/ship/ASD067_Halford_1943_ao.dds	</Texture>
+	</property>
+	<property>	animMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/ship/ASD067_Halford_1943_anim.dds	</Texture>
+	</property>
+	<property>	detailMap
+		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/ship/ASD067_Halford_1943_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/ship/ASD067_Halford_1943_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/ship/ASD067_Halford_1943_n.dds	</Texture>
+	</property>
+	<property>	g_detailAlbedoInfluence
+		<Float>	0.6000	</Float>
+	</property>
+	<property>	g_detailFadeDistance
+		<Float>	5.0000	</Float>
+	</property>
+	<property>	g_detailGlossInfluence
+		<Float>	1.0000	</Float>
+	</property>
+	<property>	g_detailNormalInfluence
+		<Float>	0.4000	</Float>
+	</property>
+	<property>	g_detailScaleU
+		<Float>	32.0000	</Float>
+	</property>
+	<property>	g_detailScaleV
+		<Float>	16.0000	</Float>
+	</property>
+</ASD067_Halford_1943.mfm>

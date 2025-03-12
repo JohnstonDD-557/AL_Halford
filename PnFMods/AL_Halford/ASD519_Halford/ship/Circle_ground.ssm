@@ -1,0 +1,68 @@
+<Circle_ground.ssm>
+	<params>
+		<param>
+			<name>	no_action	</name>
+			<type>	trigger	</type>
+		</param>
+		<param>
+			<name>	idle	</name>
+			<type>	trigger	</type>
+		</param>
+	</params>
+	<node>
+		<name>	no_action	</name>
+		<type>	sleep	</type>
+		<time>	1.000000 1.000000	</time>
+		<transition>
+			<to>	no_action	</to>
+			<blendDuration>	0.0000	</blendDuration>
+			<allowRootMotion>	false	</allowRootMotion>
+			<conditions>
+				<condition>
+					<type>	trigger	</type>
+					<name>	no_action	</name>
+				</condition>
+			</conditions>
+		</transition>
+		<transition>
+			<to>	Rotation_Z_15rpm	</to>
+			<blendDuration>	0.0000	</blendDuration>
+			<allowRootMotion>	false	</allowRootMotion>
+			<conditions>
+				<condition>
+					<type>	trigger	</type>
+					<name>	idle	</name>
+				</condition>
+			</conditions>
+		</transition>
+	</node>
+	<node>
+		<name>	Rotation_Z_15rpm	</name>
+		<type>	animation	</type>
+		<resource>	content/animation/common/Rotation2rpm.fbx	</resource>
+		<clipName />
+		<isLoop>	true	</isLoop>
+		<transition>
+			<to>	no_action	</to>
+			<blendDuration>	0.3000	</blendDuration>
+			<allowRootMotion>	false	</allowRootMotion>
+			<conditions>
+				<condition>
+					<type>	trigger	</type>
+					<name>	no_action	</name>
+				</condition>
+			</conditions>
+		</transition>
+		<transition>
+			<to>	Rotation_Z_15rpm	</to>
+			<blendDuration>	0.3000	</blendDuration>
+			<allowRootMotion>	false	</allowRootMotion>
+			<conditions>
+				<condition>
+					<type>	trigger	</type>
+					<name>	idle	</name>
+				</condition>
+			</conditions>
+		</transition>
+	</node>
+</Circle_ground.ssm>
