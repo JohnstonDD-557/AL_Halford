@@ -27,6 +27,7 @@ This mod changes the appearance of Halford into a AzurLane Halford theme.
 2025/04/03 It's available in 14.3.
 
 2025/05/15 It's available in 14.4.
+
 ---
 
 # 简介
