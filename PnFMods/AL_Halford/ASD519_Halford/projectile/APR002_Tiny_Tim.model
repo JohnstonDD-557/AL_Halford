@@ -1,6 +1,8 @@
 <APR002_Tiny_Tim.model>
 	<visual>PnFMods/AL_Halford/ASD519_Halford/projectile/APR002_Tiny_Tim.visual</visual>
-	<animations/>
+	<animations>
+		<animation>	PnFMods/AL_Halford/ASD519_Halford/aircraft/ssm_seq/window.ssm	</animation>
+	</animations>
 	<dyes/>
 	<metaData>	Wargaming.net	</metaData>
 </APR002_Tiny_Tim.model>
