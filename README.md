@@ -28,6 +28,8 @@ This mod changes the appearance of Halford into a AzurLane Halford theme.
 
 2025/05/15 It's available in 14.4.
 
+2025/06/21 It's available in 14.5. Fix some texture and add a tail for planes.
+
 ---
 
 # 简介
@@ -55,3 +57,17 @@ This mod changes the appearance of Halford into a AzurLane Halford theme.
 2025/04/03 在14.3下可正常使用
 
 2025/05/15 在14.4下可正常使用
+
+2025/06/21 在14.5下可正常使用,修复了一部分纹理并为飞机添加了拖尾特效
+
+
+# preview/预览图片
+<details>
+    <summary>避免一开始就加载一大堆图片,折叠一下 / Incase for loading too much picture when just open</summary>
+    
+![舰首](./Image/preview.png)
+![甲板](./Image/preview_2.png)
+![舰艉](./Image/preview_3.png)
+![飞机](./Image/preview_sp_tail.png)
+</details>
+
