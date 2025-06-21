@@ -1,0 +1,28 @@
+<window.ssm>
+	<params>
+		<param>
+			<name>	loop	</name>
+			<type>	bool	</type>
+			<value> true	</value>
+		</param>
+	</params>
+	<node>
+		<name>	no_action	</name>
+		<type>	sequence	</type>
+		<resource>	PnFMods/AL_Halford/ASD519_Halford/aircraft/ssm_seq/window.seq	</resource>
+		<isLoop>	true	</isLoop>
+		<loop>	-1 </loop>
+		<transition>
+			<to>	no_action	</to>
+			<blendDuration>	0.0000	</blendDuration>
+			<allowRootMotion>	false	</allowRootMotion>
+			<conditions>
+				<condition>
+					<name>	loop	</name>
+					<type>	bool	</type>
+					<value>	true	</value>
+				</condition>
+			</conditions>
+		</transition>
+	</node>
+</window.ssm>
